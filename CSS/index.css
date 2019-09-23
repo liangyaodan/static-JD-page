@@ -1,0 +1,244 @@
+/* 中间分类区域---start */
+.fenlei{
+	font-size: 14px;
+	height: 510px;
+	margin: 10px 0px 30px;
+}
+/* 中间分类部分第1栏 */
+.fenlei-1{
+	padding-top: 20px;
+	width: 190px;
+	height: 450px;
+	margin: 10px 0px 30px;
+	background-color: #fff;
+	position: relative;
+}
+.ad{
+	position: absolute;
+	top: 0px;
+	left: -190px;
+}
+.ad:hover .ad-r{
+	width: 790px;
+	transition: all 1s;
+}
+.ad-r{
+	position: absolute;
+	top: 0px;
+	left: 190px;
+	z-index: 999;
+	width: 0px;
+	height: 470px;
+}
+.fenlei-1 li{
+	color: #666;
+	font-weight: 700;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 15px;
+}
+.fenlei-1 li:hover{
+	background-color: #ccc;
+}
+.fenlei-1 li a{
+	color: #666;
+	font-weight: 700;
+	margin: 0 3px;
+}
+.fenlei-1 li a:hover{
+	color: #c81623;
+}
+/* 中间分类部分第2栏---start */
+.fenlei-2{
+	position: relative;
+	width: 590px;
+	height: 470px;
+	margin: 10px 10px 30px;
+}
+.fenlei-2 img{
+	cursor: pointer;
+}
+/* 设置左右箭头部分 以及轮播图*/
+.arrow-l,.arrow-r{
+	height: 30px;
+	width: 30px;
+	background: rgba(0,0,0,0.3);
+	position:absolute;
+	top:50%;
+	transform: translateX(-50%);
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	color: white;
+	border-radius: 15px 0 0 15px;
+}
+.arrow-l{
+	left: 0;
+	border-radius: 0 15px 15px 0;
+}
+.cricle{
+	width: 200px;
+	height: 25px;
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.cricle li{
+	width: 15px;
+	height: 15px;
+	background: rgba(0,0,0,0.3);
+	border-radius: 50%;
+	float: left;
+	margin: 5px;
+	cursor: pointer; /* 鼠标放上去,变成小手的形状 */
+}
+.cricle .current{
+	background-color: white;
+	
+}
+/* 中间分类部分第2栏---end */
+
+/* 中间分类部分第3栏 */
+.fenlei-3{
+	width: 190px;
+	height: 470px;
+	margin: 10px 10px 30px 0px;
+}
+.fenlei-3 div:nth-child(2){
+	margin: 10px 0px;
+	}
+.fenlei-3 img{
+	cursor: pointer;
+}
+/* 中间分类部分第4栏 */
+.fenlei-4{
+	width: 190px;
+	height: 470px;
+	margin: 10px 0px 30px 0px;
+	background-color: #fff;
+}
+/* 中间分类部分第4栏 ----上部分*/
+.fenlei-4-t{
+	height: 90px;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 20px;
+}
+.fenlei-4-t1{
+	height: 50px;
+	width: 87px;
+	line-height: 20px;
+	color: #666;
+	font-size: 12px;
+	margin-left: 60px;
+	position: relative; 
+}
+.fenlei-4-t1 .space{
+	margin: 0px 2px;
+}
+.fenlei-4-t1 a{
+	margin: 0px;
+}
+.fenlei-4-t1 .touxiang{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	left: -60px;
+	background: url(../images/sprite_userinfo@1x.png) no-repeat -70px 0;
+}
+.fenlei-4-t1 .touxiang img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin: 5px;
+}
+.fenlei-4-t2{
+	margin-top: 10px;
+}
+.fenlei-4-t2 a{
+	width: 70px;
+	height: 25px;
+	margin-right: 10px;
+	font-size: 12px;
+	line-height: 25px;
+	text-align: center;
+	background-color: #e1251b;
+	color: #fff;
+	border: 6px solid #e1251b;
+	border-radius: 25px;
+}
+.fenlei-4-t2 a:last-child{
+	background-color: #363634; 
+	color: #e5d790;
+	border: 6px solid #363634;
+}
+/* 中间分类部分第4栏 ----中间部分*/
+.fenlei-4-m{
+	height: 130px;
+	border-bottom: 1px solid #ccc;
+}
+.fenlei-4-m a:hover{
+	color: #c81623;
+}
+.fenlei-4-m1{
+	height: 15px;
+	background-color: #fff;
+	padding: 15px 15px 0;
+	line-height: 15px;
+}
+.fenlei-4-m1 a{
+	color: #ccc;
+	float: right;
+	
+}
+.fenlei-4-m2{
+	padding-top: 10px;
+}
+.fenlei-4-m2 li{
+	width: 160px;
+	height: 17px;
+	margin: 0px 15px 5px;
+	/* 以下三者必须同时使用 */
+	white-space: nowrap;   /* 强制不换行,除非遇到br */
+	overflow: hidden;     /* 溢出部分隐藏 */
+	text-overflow: ellipsis;    /* 超出部分用省略号代替 */
+}
+.fenlei-4-m2 a{
+	width: 35px;
+	height: 16px;
+	background-color: #fdeeed;
+	color: #f10;
+}
+.fenlei-4-m2 a:nth-child(2n){
+	background-color: #fff;
+	color: #666;
+}
+.fenlei-4-m2 a:hover{
+	color: #c81623;
+}
+/* 中间分类部分第4栏 ----下部分*/
+.fenlei-4-b{
+	height: 228px;
+	overflow: hidden;
+}
+.fenlei-4-b  ul{
+	width: 195px;
+}
+.fenlei-4-b li{
+	width: 63px;
+	height: 57px;
+	float: left;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.fenlei-4-b svg{
+	width: 20px;
+	height: 20px;
+	margin: 13px 0 2px 20px;
+	cursor: pointer;
+}
+.fenlei-4-b li p{
+	text-align: center;
+}
+/* 中间分类区域---end */

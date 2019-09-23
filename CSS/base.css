@@ -1,0 +1,342 @@
+/* 字体图标声明 */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?1gaxrs');
+  src:  url('../fonts/icomoon.eot?1gaxrs#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?1gaxrs') format('truetype'),
+    url('../fonts/icomoon.woff?1gaxrs') format('woff'),
+    url('../fonts/icomoon.svg?1gaxrs#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+/* 版心部分 */
+#banxin{
+	width: 1190px;
+	margin: 0px auto;
+}
+/* 主体颜色 */
+body{
+	background: #f6f6f6;
+	font-size: 12px;
+}
+/* 公共浮动部分 */
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/* 头部 */
+header{
+	height: 80px;
+	background: black;
+}
+/* 导航栏部分 */
+#nav{
+	height: 30px;
+	line-height: 30px;
+	background: #e3e4e5;
+	border-bottom: 1px solid #ddd;
+	font-size: 12px;
+	color: #999;
+}
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,
+td,textarea,th,ul{
+	margin: 0px;
+	padding: 0px;
+	
+}
+input,button,.shopCar{
+	border: none;  /* 清空表单原本的边框 */
+	outline: none; /* outline是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用。去除轮廓颜色 */
+}
+ul{
+	list-style: none;
+}
+a{
+	color: #999;
+	text-decoration: none;
+}
+.fr li{
+	float: left;
+}
+.f10{
+	color: #f10;
+}
+/* 小竖线 */
+.space{
+	width: 2px;
+	height: 10px;
+	margin: 10px 12px;	
+}
+#nav .space{
+	background-color: #ccc;
+}
+a:hover{
+	color: #c81623;
+}
+li i{
+	font-family: icomoon;
+	font-style: normal;
+}
+/* 中间头部分 ---start */
+.middle{
+	width: 100%;
+	height: 140px;
+	position: relative;
+	background-color: #fff;
+}
+.logo{
+	position: absolute;
+	left: 70px;
+}
+.logo a{
+	display: block;
+	width: 190px;
+	height: 140px;
+	background: url(../images/logo.png) no-repeat;
+}
+/* 搜索框部分 */
+.sousuo{
+	width: 550px;
+	height: 35px;
+	position: absolute;
+	top: 25px;
+	left: 370px;
+	border: 1px solid #f10;
+}
+.sousuo input{
+	width: 500px;
+	height: 35px;
+	float: left;
+	padding-left: 15px;
+}
+.sousuo button{
+	width: 50px;
+	height: 35px;
+	background-color: #f10;
+	float: right;	
+}
+button i{
+	font-family: icomoon;
+	font-style: normal;
+	color: white;
+}
+/* 购物车部分 */
+.shopCar{
+	width: 130px;
+	height: 33px;
+	line-height: 33px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	position: absolute;
+	top: 25px;
+	right: 270px;
+	text-align: center;
+}
+.shopCar i{
+	font-family: icomoon;
+	font-style: normal;
+	color: #f10;
+	margin-right: 12px;
+}
+.shopCar span{
+	width: 17px;
+	height: 15px;
+	line-height: 15px;
+	background-color: #f10;
+	border-radius: 6px;
+	position: absolute;
+	top: 3px;
+	left: 33px;
+	color: #fff;
+}
+/* 热点关键词部分 */
+.hotWords{
+	position: absolute;
+	top: 68px;
+	left: 370px;
+}
+.hotWords a{
+	margin-right: 12px;
+}
+/* 小导航栏部分 */
+.smallnav{
+	width: 700px;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	bottom: 0px;
+	left: 270px;
+}
+.smallnav li{
+	font-size: 15px;
+	font-weight: 700;
+	margin-right: 15px;
+	float: left;
+	color: #232222;
+}
+/* 中间头部分---end */
+
+/* 底部 */
+footer{
+	margin-top: 20px;
+	height: 500px;
+}
+footer a{
+	color: #666;
+}
+/* 底部最上面的部分 */
+.f-top{
+	padding: 30px 0px;
+	border-bottom: 1px solid #dedede;
+	overflow: hidden;
+}
+.f-top ul li{
+	width: 297px;
+	height: 43px;
+	line-height: 43px;
+	position: relative;
+	float: left;	
+}
+.f-top li h5{
+	width: 37px;
+	height: 43px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 0px;
+	left: 30px;
+	background: url(../images/ico.png) no-repeat;
+}
+.f-top li p{
+	font-weight: 700;
+	font-size: 20px;
+	margin-left: 82px;
+	color: #232222;
+}
+.f-top li:nth-child(2) h5{
+	background-position: 0 -43px;
+}
+.f-top li:nth-child(3) h5{
+	background-position: 0 -86px;
+}
+.f-top li:last-child h5{
+	background-position: bottom;
+}
+/* 底部中间部分 */
+.f-middle{
+	font-size: 14px;
+	position: relative;
+	height: 200px;
+	border-bottom: 1px solid #dedede;
+}
+/* 底部中间部分-----左边 */
+.f-middle dl{
+	color: #666;
+	float: left;
+	margin-top: 25px;
+	background-origin: border-box;
+	width: 200px;
+}
+.f-middle dt{
+	font-weight: 700;
+	height: 30px;
+}
+.f-middle dd{
+	height: 22px;
+}
+/* 底部中间部分-----右边 */
+.cover{
+	color: #666;
+	width: 200px;
+	height: 150px;
+	background: url(../images/ico_footer.png);
+	position: absolute;
+	top: 25px;
+	right: 0px;
+}
+.cover h5{
+	font-size: 14px;
+	height: 35px;
+	padding-left: 35px;
+}
+.cover p{
+	font-size: 12px;
+	width: 190px;
+	height: 50px;
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+.cover a{
+	width: 180px;
+	font-size: 12px;
+	display: block;
+	margin-top: 10px;
+	text-align: right;
+}
+.cover a:hover{
+	color: #c81623;
+}
+/* 底部最下面的部分 */
+div p{
+	color: #666;
+}
+.f-bottom{
+	/* height: 265px; */
+	padding: 20px 0px;
+	
+}
+.f-bottom p{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 12px;
+}
+.f-bottom span{
+	margin: 0 5px;
+}
+.f-bottom div p{
+	padding-top: 15px;
+}
+.f-bottom-bom a{
+	width: 103px;
+	height: 33px;
+	margin: 20px 10px 0px;
+	display: inline-block;
+	text-align: center;
+	background: url(../images/ico_footer.png) no-repeat 0 -150px;
+}
+.f-bottom-bom a:nth-child(2){
+	background-position: -103 -150px;
+}
+.f-bottom-bom a:nth-child(3){
+	background-position: 0 -183px;
+}
+.f-bottom-bom a:nth-child(4){
+	background-position: -103 -183px;
+}
+.f-bottom-bom a:last-child{
+	background-position: 0 -216px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
